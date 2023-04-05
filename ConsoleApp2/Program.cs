@@ -4,8 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World, again!");
+            var name = Console.ReadLine();
+
+            var person = new Person() { Name = name };
+
+            Console.WriteLine("Hello, " + person.Name);
         }
     }
 }
