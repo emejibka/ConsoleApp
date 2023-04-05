@@ -8,7 +8,7 @@
 
             var person = new Person() { Name = name };
 
-            Console.WriteLine("Hello, " + person.Name);
+            Console.WriteLine($"[{DateTime.Now}] Hello, {person.Name}");
         }
     }
 }
